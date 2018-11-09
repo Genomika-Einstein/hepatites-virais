@@ -1,0 +1,7 @@
+new
+load /home/ubuntu/bioinfo/data/BAM/VOWS_HBV_S13.bam
+load /home/ubuntu/bioinfo/reference/HBV_ref/HBV_ref.bed
+expand HBV_ref.bed
+snapshotDirectory /home/ubuntu/bioinfo/data/figures/igv
+snapshot VOWS_HBV_S13_igv.png
+exit

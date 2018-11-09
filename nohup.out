@@ -1,0 +1,31 @@
+Iniciando amostra 1522_HBV_S16
+Iniciando amostra 1541_HBV_S15
+Iniciando amostra 15457_HBV_S5
+Iniciando amostra 1588_HBV_S2
+Iniciando amostra 1780_HBV_S7
+Iniciando amostra 1789_HBV_S4
+Iniciando amostra 1820_HBV_S3
+Iniciando amostra 9648_Hepatite_S2
+Warning: [blastn] Query is Empty!
+Iniciando amostra AASF123_HBV_S8
+Iniciando amostra AAS_IMT_HEPATITE_S7
+Warning: [blastn] Query is Empty!
+Iniciando amostra ANTF123_HBV_S12
+Iniciando amostra BH144_HBV_S6
+Iniciando amostra BH57_Hepatite_S3
+Iniciando amostra C073_Hepatite_S1
+Iniciando amostra CO20_HBV_S9
+Iniciando amostra CO92_HBV_S10
+Iniciando amostra HBNTN89_HBV_S11
+Iniciando amostra HBNTRA62_HBV_S17
+Iniciando amostra PA17_HBV_S14
+Iniciando amostra RPI63_IMT_HEPATITE_S3
+Traceback (most recent call last):
+  File "filter_scaffold.py", line 51, in <module>
+    main()
+  File "filter_scaffold.py", line 47, in main
+    original_scaffold = find_scaffold(in_path)
+  File "filter_scaffold.py", line 16, in find_scaffold
+    file = open(path, 'r')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/bioinfo/data/spades/RPI63_IMT_HEPATITE_S3_spades/scaffolds.fasta'
+Iniciando amostra VOWS_HBV_S13
